@@ -1,0 +1,28 @@
+{
+  "name": "ts-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "postgres": "^3.4.5",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
